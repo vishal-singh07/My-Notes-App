@@ -2,7 +2,7 @@
 
 ## *Vishal Singh*
 
-**My Notes** is an android note taking app similar to Google's Notes. It is built using concepts of Room Database in Android and using MVVM architecture. RecyclerView is used to display the contents.
+**My Notes** is an android note taking app similar to Google's Notes. It is built using concepts of Room Database in Android and using MVVM architecture and Kotlin Coroutines. RecyclerView is used to display the contents.
 
 
 ## Functionality
@@ -13,13 +13,19 @@ The following are the **functionalities** of the app:
 * [x] User can update and delete a note.
 * [x] User can search for a note .
 * [x] The home screen is updated automatically as soon as a note is created or deleted.
+* [x] The option to switch layouts is also available.
 
 
-## Video Walkthrough
+## Screenshots
 
-Here's a walkthrough of implemented user stories:
+Here are some screenshots of various functionalities
 
-<img src='https://media.giphy.com/media/OgSCB21FeK4uL42HER/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<div>
+<img src='' width='200px' height='300px' alt='LinearLayoutHomeScreen' />
+<img src='' width='200px' height='300px' alt='GridLayoutHomeScreen' />
+<img src='' width='200px' height='300px' alt='SearchFunctionality' />
+<img src='' width='200px' height='300px' alt='EditNote' />
+</div>
 
 
 ## Notes

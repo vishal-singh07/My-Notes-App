@@ -1,6 +1,7 @@
 package com.example.mynotes.adapters
 
 
+
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -24,11 +25,14 @@ class NoteListAdapter(private val onItemClicked: (Note) -> Unit) : RecyclerView.
     class NoteViewHolder(private var binding: NoteItemBinding) : RecyclerView.ViewHolder(binding.root) {
 
 
-        fun bind(note: Note)
+        fun bind(note: Note, color: Int, )
         {
             binding.tvTitle.text = note.title
+            binding.tvTitle.isSelected = true
             binding.tvDescription.text = note.description
             binding.tvDate.text = note.date
+            binding.tvDate.isSelected = true
+            binding.noteContainer.setCardBackgroundColor(color)
         }
     }
 
@@ -43,8 +47,7 @@ class NoteListAdapter(private val onItemClicked: (Note) -> Unit) : RecyclerView.
         holder.itemView.setOnClickListener {
             onItemClicked(currentNote)
         }
-        holder.bind(currentNote)
-        holder.itemView.setBackgroundColor(holder.itemView.resources.getColor(getRandomColor(),null))
+        holder.bind(currentNote,holder.itemView.resources.getColor(getRandomColor(),null))
     }
 
 
