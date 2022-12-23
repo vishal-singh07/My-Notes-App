@@ -21,10 +21,10 @@ The following are the **functionalities** of the app:
 Here are some screenshots of various functionalities
 
 <div>
-<img src='' width='200px' height='300px' alt='LinearLayoutHomeScreen' />
-<img src='' width='200px' height='300px' alt='GridLayoutHomeScreen' />
-<img src='' width='200px' height='300px' alt='SearchFunctionality' />
-<img src='' width='200px' height='300px' alt='EditNote' />
+<img src='https://user-images.githubusercontent.com/69778583/209304911-7491e8bf-1651-4dbc-824e-d0682b4c1db4.PNG' width='200px' height='300px' alt='LinearLayoutHomeScreen' />
+<img src='https://user-images.githubusercontent.com/69778583/209305001-9c98532d-ef77-4260-8d27-8dcf53b61522.PNG' width='200px' height='300px' alt='GridLayoutHomeScreen' />
+<img src='https://user-images.githubusercontent.com/69778583/209305072-d139f050-5c64-462a-b750-f4c41634065a.PNG' width='200px' height='300px' alt='SearchFunctionality' />
+<img src='https://user-images.githubusercontent.com/69778583/209305132-94e7a9dd-000c-45cf-9b59-22e428207985.PNG' width='200px' height='300px' alt='EditNote' />
 </div>
 
 
